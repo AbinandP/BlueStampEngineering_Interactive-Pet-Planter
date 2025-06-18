@@ -5,8 +5,6 @@ The Interactive Pet Planter is an Adafruit-powered planter with temperature and 
 |:--:|:--:|:--:|:--:|
 | Abinand P. | Leland High School | Computer Science | Incoming Sophmore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![Headstone Image](AbinandP.png)
   
 # Final Milestone
@@ -50,9 +48,10 @@ For your first milestone, describe what your project is and how you plan to buil
 # Starter Project
 **Retro Arcade Console**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SwvrSX8DR4A" title="Abinand P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 My starter project before I started my intensive project in BlueStampEngineering was the Retro Arcade Console. I took interest in the console because of the familiarity I had with consoles as well as being the most advanced start project that BSE offered. I brought home the fundamentals and practices of soldering, speccifically on PCB boards. The Retro Arcade Console consisted two forms of power, a battery pack consisting of 3 AAA batteries, or via a mini usb port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons total with 4 of the buttons regarding movement, left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console is where the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acryllic boards.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SwvrSX8DR4A" title="Abinand P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
