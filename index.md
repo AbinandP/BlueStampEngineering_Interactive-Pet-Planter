@@ -4,7 +4,7 @@ The Interactive Pet Planter is an Adafruit-powered planter with temperature and 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Abinand P. | Leland High School | Computer Science | Incoming Sophmore
-
+ 
 <img src="AbinandP.png" width="450" height="600">
 
 <!--- # Final Milestone
