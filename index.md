@@ -46,7 +46,7 @@ The majority of the planter consists of 3D-printed parts. There is the frame, wh
 My starter project before I started my intensive project at BlueStamp Engineering was the Retro Arcade Console. I took an interest in the console because of the familiarity I had with consoles, as well as being the most advanced start project that BSE offered. I brought home the fundamentals and practices of soldering, specifically on PCB boards. The Retro Arcade Console consisted of two forms of power: a battery pack consisting of 3 AAA batteries, or via a mini USB port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons total, with 4 of the buttons regarding movement, left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the Tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console; the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acrylic boards.
 
 # Schematics 
-<RetroArcadeConsoleSchematics.jpg="[RetroArcadeConsoleSchematic]" width= "300" height= "400">
+<img src="[RetroArcadeConsoleSchematics.jpg]" width="300" height="400">
 
 <!---
 # Code
