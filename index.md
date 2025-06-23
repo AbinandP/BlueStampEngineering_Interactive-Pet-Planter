@@ -49,9 +49,10 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 
 # Schematics 
 <img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700">
+
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Retro Arcade Console Schematics Source</a>
-<!---
-# Code
+
+<!---# Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
