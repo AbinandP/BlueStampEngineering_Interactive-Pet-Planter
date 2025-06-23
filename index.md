@@ -5,7 +5,7 @@ The Interactive Pet Planter is an Adafruit-powered planter with temperature and 
 |:--:|:--:|:--:|:--:|
 | Abinand P. | Leland High School | Computer Science | Incoming Sophmore
 
-<img src="AbinandP.png" width="300" height="400">
+<img src="AbinandP.png" width="450" height="600">
 
 <!--- # Final Milestone
 
@@ -48,7 +48,7 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 <img src="RetroArcadeConsoleImage.png" width="300" height="400">
 
 # Schematics 
-<img src="RetroArcadeConsoleSchematics.jpg" width="300" height="400">
+<img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700">
 
 <!---
 # Code
