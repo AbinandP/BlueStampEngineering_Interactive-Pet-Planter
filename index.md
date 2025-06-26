@@ -18,7 +18,7 @@ Don't forget to replace the text below with the embedding for your milestone vid
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
---->
+-->
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/of--iBlmlTE" title="Abinand P. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
