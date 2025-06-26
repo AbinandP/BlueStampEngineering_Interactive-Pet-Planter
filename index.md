@@ -587,9 +587,7 @@ This guide covers the setup for the AI Plant Adviser.
 
 2. **Installing and Using Ollama**
 
----
-
-## Ollama (ree + Local)
+## Ollama (Free + Local)
 
 ### Setup:
 1. **Install Ollama:**
