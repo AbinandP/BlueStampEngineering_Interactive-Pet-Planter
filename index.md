@@ -50,11 +50,11 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 
 <img src="titano1.png">
 <img src="titano2.png">
-<img src="titano3.png" width="450" height="600">
+<img src="titano3.png" width="450" height="300">
 
 <a href="https://learn.adafruit.com/adafruit-pyportal-titano/downloads"> PyPortal Titano Schematics Source</a>
 
-**Retro Arcade Console**
+**Soil Sensor**
 
 <img src="soilsensor.png">
 
