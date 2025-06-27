@@ -41,13 +41,13 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 
 # Schematics 
 **Retro Arcade Console**
-
+---
 <img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700">
 
 <a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Retro Arcade Console Schematics Source</a>
 
 **PyPortal Titano**
-
+---
 <img src="titano1.png">
 <img src="titano2.png">
 <img src="titano3.png" width="800" height="500">
@@ -55,7 +55,7 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 <a href="https://learn.adafruit.com/adafruit-pyportal-titano/downloads"> PyPortal Titano Schematics Source</a>
 
 **Soil Sensor**
-
+---
 <img src="soilsensor.png">
 
 <a href="https://learn.adafruit.com/assets/65928"> Soil Sensor Schematics Source</a>
