@@ -23,12 +23,11 @@ Don't forget to replace the text below with the embedding for your milestone vid
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/of--iBlmlTE" title="Abinand P. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<h4>Summary</h4>
+<h3>Summary</h3>
 
 The planter's original design is complete, and all the necessary code for the display to function properly has been implemented. The Titano display features a water filling animation when the owner adds water to the pot. Located at the bottom of the screen, the temperature in Fahrenheit as well as the moisture level is displayed. A reading of around 350 means dehydrated (minimal moisture), and a reading of around 600 means very wet. I also wanted something that would aid further in taking care of the plant; this is when I decided to implement an AI model to assist with this. The plant adviser AI runs in your code editor's terminal without the use of an API (unless the user has a premium API from OpenAI or HuggingFace, where I've created different code files in those two cases). This is achieved by sending the data from my Adafruit IO feeds (moisture and temperature) to the model. The model can then make suggestions based on the readings, such as steps to take care of your plant. An example use case would be asking if the moisture and temperature readings are normal for a specific plant (ex., Venus Flytrap). 
 
 <h3>Challenges</h3>
-
 A challenge I overcame was an attribute error with the PyPortal module, which was a problem with my CircuitPython itself. The PyPortal module is essential for sending the data to Adafruit IO, and I overcame this error by downgrading my CircuitPython version to a more stable release. There was also a period where I was stuck trying to find a model that was free and didn't require a paid API (used Ollama to avoid using an API entirely). 
 
 <h3>Next Milestone Requirements</h3>
@@ -39,16 +38,13 @@ My final milestone includes modifications like waterproofing and an additional t
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mPHPJ9TLLec" title="Abinand P. Milestone 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Summary**
----
+<h3>Summary</h3>
 The majority of the planter consists of 3D-printed parts. There is the frame, where the cup, drip tray, sensor plate, back cover, and screen cover are attached. The PyPortal Titano is attached to the screen cover, which will later be snap-fitted into the frame. The Adafruit STEMMA Soil Sensor is attached to the sensor plate and then to the cup (wires attached to Titano). Finally, the speaker is attached to the left wall of the frame, and the wires are attached to the Titano. I have started setting up the Internet access for the Pyportal Titano. 
 
-**Challenges**
----
+<h3>Challenges</h3>
 The challenge I'm facing is some technical issues in configuring the software included with the Titano. Some of the software seems to be outdated with duplicate files, so I need to be careful before running code on the Titano in future milestones. 
 
-**Next Milestone Requirements**
----
+<h3>Next Milestone Requirements</h3>
 The only things left to do with my project now are to set up the code for the Titano and then the Adafruit IO data display. After this (with sufficient time), I can link an AI model to interpret the data and tell if the plant is healthy or not, as well as provide plant care instructions.
 
 # Starter Project: Retro Arcade Console
