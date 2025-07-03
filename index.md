@@ -77,7 +77,8 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 # Code
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
-**Pet Planter Display and Adafruit IO Code**
+<h3>Pet Planter Display and Adafruit IO Code</h3>
+ 
 ```python
 from os import getenv
 import time
@@ -408,11 +409,10 @@ while True:
             print("Failed to get data, retrying...\n", e)
             wifi.reset()
     time.sleep(DELAY_SENSOR)
-
-
 ```
 
-**Pet Planter AI**
+<h3>Pet Planter AI</h3>
+
 ```python
 import requests
 import json
@@ -605,7 +605,8 @@ if __name__ == "__main__":
     chat_loop()
 ```
 
-**Plant Adviser Setup Guide**
+<h3>Plant Adviser Setup Guide</h3>
+
 ```txt
 This guide covers the setup for the AI Plant Adviser.
 
