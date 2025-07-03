@@ -123,7 +123,7 @@ DELAY_SENSOR = 0
 DELAY_PUBLISH = 1
 
 # Maximum soil moisture measurement
-SOIL_LEVEL_MAX = 160
+SOIL_LEVEL_MAX = 150
 
 # Minimum soil moisture measurement
 SOIL_LEVEL_MIN= 1
@@ -366,7 +366,7 @@ while True:
 
     print("reading soil sensor...")
     # Read capactive
-    moisture = ss.moisture_read() - 340
+    moisture = ss.moisture_read() - 350
     label_level.text = str(moisture)
 
     # Convert into percentage for filling the screen
