@@ -123,10 +123,10 @@ DELAY_SENSOR = 0
 DELAY_PUBLISH = 1
 
 # Maximum soil moisture measurement
-SOIL_LEVEL_MAX = 500.0
+SOIL_LEVEL_MAX = 160
 
 # Minimum soil moisture measurement
-SOIL_LEVEL_MIN= 350.0
+SOIL_LEVEL_MIN= 1
 
 #---| End User Config |---------------
 
@@ -366,7 +366,7 @@ while True:
 
     print("reading soil sensor...")
     # Read capactive
-    moisture = ss.moisture_read()
+    moisture = ss.moisture_read() - 340
     label_level.text = str(moisture)
 
     # Convert into percentage for filling the screen
@@ -408,6 +408,7 @@ while True:
             print("Failed to get data, retrying...\n", e)
             wifi.reset()
     time.sleep(DELAY_SENSOR)
+
 
 ```
 
