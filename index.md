@@ -74,6 +74,18 @@ My starter project before I started my intensive project at BlueStamp Engineerin
 
 <a href="https://learn.adafruit.com/assets/65928"> Soil Sensor Schematics Source</a>
 
+**I2C Multiplexer**
+---
+<img src="multiplexer.png">
+
+<a href="https://www.adafruit.com/product/5626"> I2C Multiplexer Schematics Source</a>
+
+**Light Sensor**
+---
+<img src="lightsensor.png">
+
+<a href="https://www.adafruit.com/product/4831"> Light Sensor Schematics Source</a>
+
 # Code
 <!-- Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
