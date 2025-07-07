@@ -660,15 +660,19 @@ This guide covers the setup for the AI Plant Adviser.
 
 <!--- # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. ---!>
+Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. --->
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| PyPortal Titano | Screen displays the temperature and moisture on the planter, featuring a water fill animation | $59.95 | <a href="https://www.adafruit.com/product/4444/"> Link </a> |
+| PyPortal Titano | The screen displays the temperature and moisture on the planter, and features a water fill animation | $59.95 | <a href="https://www.adafruit.com/product/4444"> Link </a> |
+| Black Nylon Machine Screw and Stand-off Set – M2.5 Thread | Screws in soil sensor | $16.95 | <a href="www.adafruit.com/product/3299"> Link </a> |
+| 560 Pieces M3 x 4mm /6mm /8mm /10mm /12mm /16mm /20mm, Button Head Socket Cap Screws Bolts Washers Nuts Kit, 304 Stainless Steel | Screws in Pyportal Titano | $9.99 | <a href="https://www.amazon.com/HELIFOUNER-Screws-Washers-Kit-Stainless/dp/B0B6HXWV2B/"> Link </a> |
+| 5V 1A (1000mA) USB port power supply - UL Listed | Power Supply to plug in the Interactive pet planter to an outlet | $5.95 | <a href="https://www.adafruit.com/product/501"> Link </a> |
+| 1FT USB C Data Cable 10Gbps Transfer, USB C 3.1 Gen 2 to USB Cable, Type C Charger 3A | Used to connect power supply and pet planter, also can use to transfer new code to Titano | $Price | <a href="https://www.amazon.com/LDLrui-MacBook-Samsung-Portable-Android/dp/B08W28GQ4P/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
-# Other Resources/Examples
+<!--- # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
