@@ -1,4 +1,4 @@
-# Interactive Pet Planter
+ # Interactive Pet Planter
 The Interactive Pet Planter is an Adafruit-powered planter with temperature and water level gauges. The planter will alert the plant owner of low water levels or unfit temperature conditions via data sent to the owner's computer, as well as play audio alerts from the planter itself. The rig is custom-made out of 3D-printed parts, PyPortal Titano, and an Adafruit STEMMA Soil Sensor.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -45,21 +45,7 @@ The challenge I'm facing is some technical issues in configuring the software in
 <h3>Next Milestone Requirements</h3>
 The only things left to do with my project now are to set up the code for the Titano and then the Adafruit IO data display. After this (with sufficient time), I can link an AI model to interpret the data and tell if the plant is healthy or not, as well as provide plant care instructions.
 
-# Starter Project: Retro Arcade Console
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SwvrSX8DR4A" title="Abinand P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-My starter project before I started my intensive project at BlueStamp Engineering was the Retro Arcade Console. I took an interest in the console because of the familiarity I had with consoles, as well as being the most advanced starter project that BSE offered. I brought home the fundamentals and practices of soldering, specifically on PCB boards. The Retro Arcade Console consisted of two forms of power: a battery pack consisting of 3 AAA batteries, or via a mini USB port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons total, with 4 of the buttons regarding movement, left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the Tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console; the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acrylic boards.
-
-<img src="RetroArcadeConsoleImage.png" width="300" height="400">
-
 # Schematics 
-**Retro Arcade Console**
----
-<img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700">
-
-<a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Retro Arcade Console Schematics Source</a>
-
 **PyPortal Titano**
 ---
 <img src="titano1.png">
@@ -692,3 +678,17 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here. --->
+
+# Starter Project: Retro Arcade Console
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SwvrSX8DR4A" title="Abinand P. Starter Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+My starter project before I started my intensive project at BlueStamp Engineering was the Retro Arcade Console. I took an interest in the console because of the familiarity I had with consoles, as well as being the most advanced starter project that BSE offered. I brought home the fundamentals and practices of soldering, specifically on PCB boards. The Retro Arcade Console consisted of two forms of power: a battery pack consisting of 3 AAA batteries, or via a mini USB port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons total, with 4 of the buttons regarding movement, left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the Tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console; the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acrylic boards.
+
+<img src="RetroArcadeConsoleImage.png" width="300" height="400">
+
+**Retro Arcade Console Schematics**
+---
+<img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700">
+
+<a href="https://www.hackster.io/lewisdiy/build-your-own-game-console-kit-play-the-classic-games-5ca95f"> Retro Arcade Console Schematics Source</a>
