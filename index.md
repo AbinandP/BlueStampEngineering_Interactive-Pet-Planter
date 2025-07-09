@@ -671,8 +671,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Adafruit LTR390 UV Light Sensor | Measures UV light and ambient light levels | $4.95 | <a href="https://www.adafruit.com/product/4831"> Link </a> |
 | Adafruit PCA9548 8-Channel STEMMA QT / Qwiic I2C Multiplexer | Used to connect multiple I2C devices to a board with only one I2C port | $6.95 | <a href="https://www.adafruit.com/product/5626"> Link </a> |
 | STEMMA QT / Qwiic JST SH 4-Pin Cable - 200mm | Used to connect light sensor to multiplexer | $1.25 | <a href="www.adafruit.com/product/4401"> Link </a> |
-| 4-pin JST PH to JST SH Cable - STEMMA to QT / Qwiic - 200mm 
-Quantity: 2 | Used to connect soil sensor to multiplexer and another used to connect multiplexer to the Titano | $0.95 | <a href="www.adafruit.com/product/4424"> Link </a> |
+| 4-pin JST PH to JST SH Cable - STEMMA to QT / Qwiic - 200mm Quantity: 2 | Used to connect soil sensor to multiplexer and another used to connect multiplexer to the Titano | $0.95 | <a href="www.adafruit.com/product/4424"> Link </a> |
 
 
 
