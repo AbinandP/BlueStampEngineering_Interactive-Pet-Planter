@@ -670,7 +670,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor | Used to measure moisture and temperature of the plant | $7.50 | <a href="https://www.adafruit.com/product/4026"> Link </a> |
 | Adafruit LTR390 UV Light Sensor | Measures UV light and ambient light levels | $4.95 | <a href="https://www.adafruit.com/product/4831"> Link </a> |
 | Adafruit PCA9548 8-Channel STEMMA QT / Qwiic I2C Multiplexer | Used to connect multiple I2C devices to a board with only one I2C port | $6.95 | <a href="https://www.adafruit.com/product/5626"> Link </a> |
-| STEMMA QT / Qwiic JST SH 4-Pin Cable - 200mm Long | Used to connect light sensor to multiplexer | $1.25 | <a href="https://www.adafruit.com/product/4401"> Link </a> |
+| STEMMA QT / Qwiic JST SH 4-Pin Cable - 200mm | Used to connect light sensor to multiplexer | $1.25 | <a href="www.adafruit.com/product/4401"> Link </a> |
+| 4-pin JST PH to JST SH Cable - STEMMA to QT / Qwiic - 200mm 
+Quantity: 2 | Used to connect soil sensor to multiplexer and another used to connect multiplexer to the Titano | $0.95 | <a href="www.adafruit.com/product/4424"> Link </a> |
+
 
 
 <!--- # Other Resources/Examples
@@ -689,7 +692,7 @@ To watch the BSE tutorial on how to create a portfolio, click here. --->
 My starter project before I started my intensive project at BlueStamp Engineering was the Retro Arcade Console. I took an interest in the console because of the familiarity I had with consoles, as well as being the most advanced starter project that BSE offered. I brought home the fundamentals and practices of soldering, specifically on PCB boards. 
 
 <h3>Assembly</h3>
-The Retro Arcade Console consisted of two forms of power: a battery pack consisting of 3 AAA batteries, or via a mini USB port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons total, with 4 of the buttons regarding movement, left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the Tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console; the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acrylic boards.
+The Retro Arcade Console consists of two forms of power: a battery pack consisting of 3 AAA batteries, or via a mini USB port. The screen was made up of a dot matrix where specific dots lit up to create the game of Tetris. The console has 7 buttons in total, with 4 of the buttons controlling movement: left, right, faster movement down, and slower movement down. The two blue buttons on the side are for muting the speaker and rotating the Tetris block. The slim, red button is an on and off button. The speaker is directly below the on/off button and near the top of the console; the points earned are displayed. All of this is mounted on a PCB board, and the entire console is protected and enclosed by acrylic boards.
 
 <img src="RetroArcadeConsoleSchematics.jpg" width="500" height="700"><img src="RetroArcadeConsoleImage.png" width="300" height="400">
 
