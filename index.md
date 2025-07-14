@@ -603,63 +603,11 @@ if __name__ == "__main__":
     chat_loop()
 ```
 
-<h3>Plant Adviser Setup Guide</h3>
-
-```txt
-This guide covers the setup for the AI Plant Adviser.
-
-## Quick Start
-
-1. **Install Python dependencies:**
-   bash
-   pip install -r requirements.txt
-   
-
-2. **Installing and Using Ollama**
-
-## Ollama (Free + Local)
-
-### Setup:
-1. **Install Ollama:**
-   bash
-   curl -fsSL https://ollama.ai/install.sh | sh
-   
-
-2. **Start Ollama server:**
-   bash
-   ollama serve
-   
-
-3. **Download a model (in new terminal):**
-   bash
-   ollama pull llama3.2
-   
-
-4. **Run the plant adviser:**
-   bash
-   python plantadviser_ollama.py
-   
-
-### Benefits:
-- Completely free
-- Runs locally (no internet needed for AI)
-- No API Needed
-- Privacy (all data stays on your computer)
-
----
-
-## Troubleshooting
-
-### Ollama Issues:
-- **"Model not found"**: Run `ollama list` to see available models
-- **"Connection refused"**: Make sure `ollama serve` is running
-- **Slow responses**: Try a smaller model like `llama2:3b`
-```
-
-<!--- # Bill of Materials
+<!---
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. --->
 
+# Bill of Materials
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | PyPortal Titano | The screen displays the temperature and moisture on the planter, and features a water fill animation | $59.95 | <a href="https://www.adafruit.com/product/4444"> Link </a> |
