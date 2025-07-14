@@ -1,6 +1,6 @@
-###########################################
-# Pet Planter Display and Adafruit IO Code
-###########################################
+############################################
+# Pet Planter Display and Adafruit IO Code #
+############################################
 
 from os import getenv
 import time
