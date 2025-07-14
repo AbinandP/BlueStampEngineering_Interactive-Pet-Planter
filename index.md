@@ -608,6 +608,7 @@ Here's where you'll list the parts in your project. To add more rows, just copy 
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. --->
 
 # Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | PyPortal Titano | The screen displays the temperature and moisture on the planter, and features a water fill animation | $59.95 | <a href="https://www.adafruit.com/product/4444"> Link </a> |
