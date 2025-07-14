@@ -593,7 +593,7 @@ def chat_loop():
             print("Plant Adviser: Available commands - 'status', 'back', 'chat', or 'quit'.")
 
 if __name__ == "__main__":
-    print("🌱 Plant Adviser with Ollama AI")
+    print("Plant Adviser with Ollama AI")
     print("To use AI chat:")
     print("1. Start Ollama server: ollama serve")
     print("2. In another terminal, run: ollama run llama3.2")
