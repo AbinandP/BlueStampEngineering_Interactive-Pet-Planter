@@ -344,7 +344,7 @@ while True:
     time.sleep(DELAY_SENSOR)
 
 
-        # Print Light Sensor UV and Ambient Values
+    # Print Light Sensor UV and Ambient Values
     uv = ltr.uvs
     ambient = ltr.light
     print("UV:", uv, "\t\tAmbient Light:", ambient)
