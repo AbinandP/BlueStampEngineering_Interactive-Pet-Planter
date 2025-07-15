@@ -20,6 +20,8 @@ import adafruit_minimqtt.adafruit_minimqtt as MQTT
 from adafruit_pyportal import PyPortal
 from adafruit_seesaw.seesaw import Seesaw
 from simpleio import map_range
+import adafruit_tca9548a
+import adafruit_ltr390
 
 # Get WiFi details and Adafruit IO keys, ensure these are setup in settings.toml
 # (visit io.adafruit.com if you need to create an account, or if you need your Adafruit IO key.)
@@ -70,8 +72,14 @@ cwd = ("/"+__file__).rsplit('/', 1)[0]
 # Set up i2c bus
 i2c_bus = busio.I2C(board.SCL, board.SDA)
 
+# Create the TCA9548A object (multiplexer) and give it the I2C bus
+tca = adafruit_tca9548a.TCA9548A(i2c_bus)
+
 # Initialize soil sensor (s.s)
-ss = Seesaw(i2c_bus, addr=0x36)
+ss = Seesaw(tca[1], addr=0x36)
+
+# Initialize light sensor
+ltr = adafruit_ltr390.LTR390(tca[0])
 
 # PyPortal ESP32 AirLift Pins
 esp32_cs = DigitalInOut(board.ESP_CS)
@@ -99,7 +107,7 @@ pyportal.set_backlight(0.9)
 # Create a new DisplayIO group
 splash = displayio.Group()
 
-# show splash group
+# Show splash group
 display.root_group = splash
 
 # Palette for water bitmap
@@ -266,14 +274,14 @@ def display_temperature(temp_val, is_celsius=False):
     """
     if not is_celsius:
         temp_val = (temp_val * 9 / 5) + 32 - 15
-        print('Temperature: %0.0fF'%temp_val)
+        #print('Temperature: %0.0fF'%temp_val)
         label_temp.text = '%0.0fF'%temp_val
         return int(temp_val)
     else:
-        print('Temperature: %0.0fC'%temp_val)
+        #print('Temperature: %0.0fC'%temp_val)
         label_temp.text = '%0.0fC'%temp_val
         return int(temp_val)
-
+    
 # initial reference time
 initial = time.monotonic()
 while True:
@@ -287,7 +295,7 @@ while True:
         continue
     now = time.monotonic()
 
-    print("reading soil sensor...")
+    #print("reading soil sensor...")
     # Read capactive
     moisture = ss.moisture_read() - 350
     label_level.text = str(moisture)
@@ -300,18 +308,20 @@ while True:
     temp = display_temperature(temp)
 
     # fill display
-    print("filling disp..")
+    #print("filling disp..")
     fill_water(moisture_percentage)
-    print("disp filled..")
+    #print("disp filled..")
 
-    print("temp: " + str(temp) + "  moisture: " + str(moisture))
+    #print("temp: " + str(temp) + "  moisture: " + str(moisture))
 
     # Play water level alarms
     if moisture <= SOIL_LEVEL_MIN:
-        print("Playing low water level warning...")
+        #print("Playing low water level warning...")
+        print("")
         #pyportal.play_file(wav_water_low)
     elif moisture >= SOIL_LEVEL_MAX:
-        print("Playing high water level warning...")
+        #print("Playing high water level warning...")
+        print("")
         #pyportal.play_file(wav_water_high)
 
 
@@ -323,6 +333,7 @@ while True:
             io.publish("temperature", temp)
             print("Published")
             label_status.text = "Data Sent!"
+            
 
             # reset timer
             initial = now
@@ -331,3 +342,13 @@ while True:
             print("Failed to get data, retrying...\n", e)
             wifi.reset()
     time.sleep(DELAY_SENSOR)
+
+
+        # Print Light Sensor UV and Ambient Values
+    uv = ltr.uvs
+    ambient = ltr.light
+    print("UV:", uv, "\t\tAmbient Light:", ambient)
+    #print("UVI:", ltr.uvi, "\t\tLux:", ltr.lux)
+    time.sleep(9.0) 
+    io.publish("uv", uv)
+    io.publish("ambient", ambient)
