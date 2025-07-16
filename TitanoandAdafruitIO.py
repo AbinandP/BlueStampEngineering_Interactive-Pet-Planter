@@ -107,7 +107,7 @@ pyportal.set_backlight(0.9)
 # Create a new DisplayIO group
 splash = displayio.Group()
 
-# Show splash group
+# show splash group
 display.root_group = splash
 
 # Palette for water bitmap
@@ -164,6 +164,18 @@ label_temp = Label(font)
 label_temp.x = 35
 label_temp.y = 300
 splash.append(label_temp)
+
+# Create a label to display the UV Light level
+label_uv = Label(font_small)
+label_uv.x = display.width - 100
+label_uv.y = 200
+splash.append(label_uv)
+
+# Create a label to display the Ambient Light level
+label_amb = Label(font_small)
+label_amb.x = display.width - 160
+label_amb.y = 160
+splash.append(label_amb)
 
 # Create a label to display the water level
 label_level = Label(font)
@@ -300,6 +312,14 @@ while True:
     moisture = ss.moisture_read() - 350
     label_level.text = str(moisture)
 
+    # Read UV
+    uv = ltr.uvs
+    label_uv.text = "UV: " + str(uv)
+
+    # Read Ambient
+    ambient = ltr.light
+    label_amb.text = "AMB: " + str(ambient)
+
     # Convert into percentage for filling the screen
     moisture_percentage = map_range(float(moisture), SOIL_LEVEL_MIN, SOIL_LEVEL_MAX, 0.0, 1.0)
 
@@ -331,6 +351,8 @@ while True:
             label_status.text = "Sending to IO..."
             io.publish("moisture", moisture)
             io.publish("temperature", temp)
+            io.publish("uv", uv)
+            io.publish("ambient", ambient)
             print("Published")
             label_status.text = "Data Sent!"
             
@@ -345,10 +367,5 @@ while True:
 
 
     # Print Light Sensor UV and Ambient Values
-    uv = ltr.uvs
-    ambient = ltr.light
-    print("UV:", uv, "\t\tAmbient Light:", ambient)
-    #print("UVI:", ltr.uvi, "\t\tLux:", ltr.lux)
-    time.sleep(9.0) 
-    io.publish("uv", uv)
-    io.publish("ambient", ambient)
+    #print("UV:", uv, "\t\tAmbient Light:", ambient)
+    #print("UVI:", ltr.uvi, "\t\tLux:", ltr.lux)'
