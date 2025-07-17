@@ -48,10 +48,13 @@ DELAY_SENSOR = 0
 DELAY_PUBLISH = 1
 
 # Maximum soil moisture measurement
-SOIL_LEVEL_MAX = 150
+SOIL_LEVEL_MAX = 1000
 
 # Minimum soil moisture measurement
 SOIL_LEVEL_MIN= 1
+
+# Subtracted from read moisture level to display lower numbers (dry moisture is set high)
+true_moisture = 0
 
 #---| End User Config |---------------
 
@@ -309,7 +312,7 @@ while True:
 
     #print("reading soil sensor...")
     # Read capactive
-    moisture = ss.moisture_read() - 350
+    moisture = ss.moisture_read() - true_moisture
     label_level.text = str(moisture)
 
     # Read UV
