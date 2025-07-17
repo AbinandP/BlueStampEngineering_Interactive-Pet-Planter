@@ -7,22 +7,27 @@ The Interactive Pet Planter is an Adafruit-powered planter with temperature and 
  
 <img src="AbinandP.png" width="450" height="600">
 
-<!--- # Final Milestone
+# Final Milestone
+---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X6F5kMFm5DI" title="Abinand P. Milestone 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+---
 
-Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.
----
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
----
-#For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
--->
+<h3>Summary</h3>
+The final planter's design is complete, which mainly focuses on waterproofing but also features an external slot for the light sensor. I have added borders around the cable ports as well as the speaker hole, and completely closed off the open back, which previously exposed all of the electronics. I've also updated the display to display the UV and Ambient light readings around the plant. Thus, I've also added both of these data streams (UV and ambient light) to the Planter AI and can now provide further care steps based on these light readings. I have also implemented a clear plastic slide for the light sensor  so that the electronics won't be exposed to water or dirt when pouring them into the plant pot.
+
+<h3>Challenges</h3>
+When I originally ordered the light sensor and multiplexer (which allows multiple devices to be connected to the Titano at once), the plug-in ports were substantially smaller than the port on the PyPortal Titano. This meant I had to order a special type of wire that had a JST SH header and a JST PH header on the other end. Waiting for these parts to arrive slowed down the progress on the planter because the light sensor is essential in my modifications. The waterproofed planter frame that was 3D printed also had many warps and a crack, so I had to cut and trim a lot of these blemishes in order to fit everything nicely as well as keep the waterproof design.
+
+<h3>Key Topics Learned</h3>
+I expanded my knowledge of CAD significantly more. I was fluent with CAD prior to the program, but I learned many tools (e.g., thicken, external thread, mirror tools in Onshape) that aided in designing detailed improvements to the planter. I also became familiar with hardware; I did a lot of software work before the project, but all the Adafruit devices and having to learn new code that came with working these devices allowed me to expand my robotics knowledge to outside of software. I also acquired some designing skills on the Titano, which introduced a kind of tedious coordinate system that I needed to use to place my text and images in specific spots. I learned how to make a GitHub site and learned more about how to structure projects in GitHub. I was able to find an AI model that did  not require an API or Internet, which will greatly aid in future projects.
+
+<h3>What I Hope to Learn in the Future</h3>
+I hope to expand my knowledge of hardware to match the level of software I'm familiar with, and I believe Adafruit will be a good place to evolve from a beginner to an avid robot creator. Along with my CAD and AI creating skills, I hope to create more advanced robot projects, such as a humanoid robot. I've created a quadruped robot dog before, but now, combined with the software skills I learned and applied to this project, I know how to create more intricate and capable projects. BSE helped me diversify my skillset regarding robotics. The program set the foundation for much more growth, and with technology getting better, I will be able to create something that will bring weight to my accomplishments.
+
 # Second Milestone
-
+---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/of--iBlmlTE" title="Abinand P. Milestone 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+---
 <h3>Summary</h3>
 The planter's original design is complete, and all the necessary code for the display to function properly has been implemented. The Titano display features a water filling animation when the owner adds water to the pot. Located at the bottom of the screen, the temperature in Fahrenheit as well as the moisture level is displayed. A reading of around 350 means dehydrated (minimal moisture), and a reading of around 600 means very wet. I wanted something that would provide further aid in taking care of the plant, which is when I decided to implement an AI model to assist with this feat. The plant adviser AI runs in your code editor's terminal without the use of an API. This is achieved by sending the data from my Adafruit IO feeds (moisture and temperature) to the model. The model can then make suggestions based on the readings, such as steps to take care of your plant. An example use case would be asking if the moisture and temperature readings are normal for a specific plant (ex., Venus Flytrap). 
 
