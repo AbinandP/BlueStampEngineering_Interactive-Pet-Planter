@@ -57,11 +57,11 @@ def analyze_plant_health(sensor_data):
     if moisture is None:
         moisture_advice = "Moisture data unavailable."
     elif moisture <= 50:
-        moisture_advice = "Soil is very dry. Water your plant! Get to around 150 on the moisture scale."
-    elif 50 <= moisture <= 150:
-        moisture_advice = "Soil moisture is good. No need to water now. Keep it at 80-220 on the moisture scale."
+        moisture_advice = "Soil is dry. Water your plant! Get to at least 750 on the moisture scale."
+    elif 750 <= moisture <= 950:
+        moisture_advice = "Soil moisture is good. No need to water now. Keep it at 750-950 on the moisture scale."
     else:
-        moisture_advice = "Soil is too wet. Hold off on watering."
+        moisture_advice = "Soil is too wet. Hold off on watering. Keep it at 750-950 on the moisture scale."
 
     temperature_advice = ""
     if temperature is None:
@@ -220,7 +220,9 @@ def chat_loop():
             print("Plant Adviser: Available commands - 'status', 'back', 'chat', or 'quit'.")
 
 if __name__ == "__main__":
-    print("Plant Adviser with Ollama AI")
+    print("--------------------------------")
+    print("- Plant Adviser with Ollama AI -")
+    print("--------------------------------")
     print("To use AI chat:")
     print("1. Start Ollama server: ollama serve")
     print("2. In another terminal, run: ollama run llama3.2")
