@@ -1,4 +1,5 @@
  # Interactive Pet Planter
+ 
 The Interactive Pet Planter is an Adafruit-powered planter with temperature and water level gauges. The planter will alert the plant owner of low water levels or unfit temperature conditions via data sent to the owner's computer, as well as play audio alerts from the planter itself. The rig is custom-made out of 3D-printed parts, a PyPortal Titano, an Adafruit STEMMA Soil Sensor, an I2C 8-Channel Multiplexer, and a UV + Ambient Light Sensor.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
