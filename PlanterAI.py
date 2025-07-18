@@ -375,12 +375,12 @@ def chat():
     return render_template_string(CHAT_PAGE, chat_history=chat_history)
 
 if __name__ == "__main__":
-    print("🌱 Plant Adviser Web Server Starting...")
+    print("Plant Adviser Web Server Starting...")
     print("=" * 50)
-    print("🌐 Open your web browser and go to:")
+    print("Open your web browser and go to:")
     print("   http://localhost:5000")
     print("=" * 50)
-    print("💡 Make sure Ollama is running for AI chat features!")
+    print("Make sure Ollama is running for AI chat features!")
     print("   Run: ollama serve")
     print("=" * 50)
     app.run(debug=True, port=5000) 
