@@ -1,0 +1,17 @@
+# Core dependencies for all plant adviser versions
+requests==2.31.0
+
+# For Flask web version (if you want web interface)
+Flask==2.3.3
+
+# Optional: For better JSON handling
+jsonschema==4.20.0
+
+# Optional: For environment variable management
+python-dotenv==1.0.0
+
+# Optional: For async support (if needed)
+aiohttp==3.9.1 
+
+# For Ollama
+ollama==0.10.0
